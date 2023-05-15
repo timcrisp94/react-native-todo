@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { View, ScrollView, Text } from 'react-native'
 import TodoItem from './TodoItem'
-import api from '../api'
+import api from '../../../api'
 
 const TodoList = ({items, handleDelete, handleUpdate}) => {
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { SafeAreaView } from 'react-native'
-import TodoList from './src/components/TodoList'
-import TodoForm from './src/components/TodoForm'
+import TodoList from './src/components/screens/TodoScreens/TodoList'
+import TodoForm from './src/components/screens/TodoScreens/TodoForm'
 import api from './src/api'
 
 const App = () => {

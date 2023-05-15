@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text, TouchableOpacity } from 'react-native'
-import api from '../api'
+import api from '../../../api'
 
 const TodoItem = ({ item, onUpdate, onDelete }) => {
   console.log('item', item)

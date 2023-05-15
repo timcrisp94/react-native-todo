@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { View, TextInput, Button, Text } from 'react-native'
-import api from '../api'
+import api from '../../../api'
 
 const TodoForm = ({ onNewItem }) => {
   const [text, setText] = useState('')
